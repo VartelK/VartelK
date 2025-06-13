@@ -1,87 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Konstantinos Vartelatos</title>
+    <title>Konstantinos Vartelatos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card {
+            background-color: #333;
+            box-shadow: 0 0 6px #959595;
+            border-radius: 5px;
+            padding: 20px;
+            text-align: center;
+        }
+        .profile {
+            width: 80px;
+            border-radius: 50%;
+            box-shadow: 0 0 6px #000;
+            filter: grayscale(1);
+        }
+        .name {
+            font-size: 1.5em;
+            margin: 10px 0 0 0;
+        }
+        .title {
+            margin: 0;
+            color: #ccc;
+            font-size: 1em;
+        }
+        .social {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .social img {
+            width: 30px;
+            filter: drop-shadow(0 0 2px #000);
+        }
+    </style>
 </head>
-<body style="background-color: black; color: white;">
-    <div style="position: absolute; /* or absolute */ top: 40%; left: 40%;">
-        <table style="vertical-align: -webkit-baseline-middle;background-color: #333;font-size: medium;font-family: Arial;box-shadow: 0px 0px 6px 0px #959595;border-radius: 5px;padding: 10px;">
-            <tbody>
-                <tr>
-                    <td>
-                        <table style="display: block;">
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <img src="https://cdn.statically.io/gh/VartelK/VartelK/73461ab6/vartelk.jpeg" style="width: 60px; border: 0px solid #fff; box-shadow: 0px 0px 6px 1px #000; border-radius: 100px; margin: 0px;"/>
-                                    </td>
-                                    <td>
-                                        <table>
-                                            <tbody>
-                                                <tr>
-                                                    <td style="padding: 0px;">
-                                                        <h3 style="margin: 0px; font-size: 18px;">Konstantinos Vartelatos</h3>
-                                                        <p style="font-size: 14px; margin: 0px; color: #cccccc;">Digital Strategist | Solutions Architect</p>
-                                                        
-                                                    </td>
-                                                </tr>
-                                                <!-- <tr>
-                                                    <td>
-                                                        <p style="font-size: 14px; color: #cccccc;">Digital Strategist | Solutions Architect</p>
-                                                    </td>
-                                                </tr> -->
-        
-                                            </tbody>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <table>
-                            <tbody>
-                                <tr height="60px">
-                                    <td style="padding-left: 15px;">
-                                        <a href="tel:+306975995563" title="+306975995563" alt="mobile">
-                                            <img src="https://cdn.statically.io/gh/VartelK/VartelK/73461ab6/phone.png" style="width: 30px;filter: drop-shadow(0px 0px 2px black);">
-                                        </a>
-                                    </td>
-                                    <td style="padding-left: 5px;">
-                                        <a href="mailto:konstantinos.vartelatos@gmail.com" title="konstantinos.vartelatos@gmail.com" alt="email">
-                                            <img src="https://cdn.statically.io/gh/VartelK/VartelK/73461ab6/mail.png" style="width: 30px;filter: drop-shadow(0px 0px 2px black);">
-                                        </a>
-                                    </td>
-                                    <td style="padding-left: 5px;">
-                                        <a href="https://fb.me/konstantinos.vartelatos">
-                                            <img src="https://cdn.statically.io/gh/VartelK/VartelK/73461ab6/facebook.png" style="width: 30px;filter: drop-shadow(0px 0px 2px black);">
-                                        </a>
-                                    </td>
-                                    <td style="padding-left: 5px;">
-                                        <a href="https://instagram.com/vartelk">
-                                            <img src="https://cdn.statically.io/gh/VartelK/VartelK/73461ab6/instagram.png" style="width: 30px;filter: drop-shadow(0px 0px 2px black);">
-                                        </a>
-                                    </td>
-                                    <td style="padding-left: 5px;">
-                                        <a href="https://twitter.com/vartelk">
-                                            <img src="https://cdn.statically.io/gh/VartelK/VartelK/73461ab6/twitter.png" style="width: 30px;filter: drop-shadow(0px 0px 2px black);">
-                                        </a>
-                                    </td>
-                                    <td style="padding-left: 5px;">
-                                        <a href="https://github.com/vartelk">
-                                            <img src="https://cdn.statically.io/gh/VartelK/VartelK/73461ab6/linkedin.png" style="width: 30px;filter: drop-shadow(0px 0px 2px black);">
-                                        </a>
-                                    </td>
-                                    <td style="padding-left: 5px;">
-                                        <a href="https://github.com/vartelk">
-                                            <img src="https://cdn.statically.io/gh/VartelK/VartelK/73461ab6/github.png" style="width: 30px;filter: drop-shadow(0px 0px 2px black);">
-                                        </a>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+<body>
+    <div class="card">
+        <img class="profile" src="https://cdn.statically.io/gh/VartelK/VartelK/73461ab6/vartelk.jpeg" alt="Konstantinos Vartelatos" />
+        <h3 class="name">Konstantinos Vartelatos</h3>
+        <p class="title">Digital Strategist | Solutions Architect</p>
+        <div class="social">
+            <a href="tel:+306975995563" title="+306975995563" alt="mobile">
+                <img src="https://cdn.statically.io/gh/VartelK/VartelK/73461ab6/phone.png" alt="phone">
+            </a>
+            <a href="mailto:konstantinos.vartelatos@gmail.com" title="konstantinos.vartelatos@gmail.com" alt="email">
+                <img src="https://cdn.statically.io/gh/VartelK/VartelK/73461ab6/mail.png" alt="email">
+            </a>
+            <!--
+            <a href="https://fb.me/konstantinos.vartelatos">
+                <img src="https://cdn.statically.io/gh/VartelK/VartelK/73461ab6/facebook.png" alt="facebook">
+            </a>
+            <a href="https://instagram.com/vartelk">
+                <img src="https://cdn.statically.io/gh/VartelK/VartelK/73461ab6/instagram.png" alt="instagram">
+            </a>
+            -->
+            <a href="https://twitter.com/vartelk">
+                <img src="https://cdn.statically.io/gh/VartelK/VartelK/73461ab6/twitter.png" alt="twitter">
+            </a>
+            <!--
+            <a href="https://github.com/vartelk">
+                <img src="https://cdn.statically.io/gh/VartelK/VartelK/73461ab6/linkedin.png" alt="linkedin">
+            </a>
+            -->
+            <a href="https://github.com/vartelk">
+                <img src="https://cdn.statically.io/gh/VartelK/VartelK/73461ab6/github.png" alt="github">
+            </a>
+        </div>
     </div>
 
 </body>
